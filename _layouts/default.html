@@ -8,7 +8,13 @@
     {% include sidebar.html %}
 
     <main class="container">
-      {{ content }}
+      
+      {% include hero.html %}
+
+      <div class="content-container">
+
+        {{ content }}
+      </div>
     </main>
 
     {% include custom-foot.html %}

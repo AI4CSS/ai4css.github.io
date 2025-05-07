@@ -27,8 +27,7 @@
 
 body {
   background-attachment: fixed;
-  background-color: variables.$sidebar-bg-color;
-  background-image: linear-gradient(to bottom, color.adjust(variables.$sidebar-bg-color, $lightness: 7%), color.adjust(variables.$sidebar-bg-color, $lightness: -7%));
+  background-color: variables.$body-bg;
   color: variables.$sidebar-text-color;
   display: flex;
   flex-direction: column;
@@ -36,8 +35,15 @@ body {
 }
 
 #sidebar {
-  flex: 0 0 auto;
+  background-color: variables.$sidebar-bg-color;
+  background-image: linear-gradient(to bottom, color.adjust(variables.$sidebar-bg-color, $lightness: 7%), color.adjust(variables.$sidebar-bg-color, $lightness: -7%));
+  display: flex;
+  flex-direction: column;
   padding: variables.$section-spacing;
+
+  .sidebar-container {
+    align-items: end;
+  }
 
   .site-title {
     font-family: 'Abril Fatface', serif;
@@ -50,10 +56,13 @@ body {
   .site-title .back-arrow { margin-right: 0.5rem; }
 }
 
-.content {
-  background: variables.$body-bg;
-  color: variables.$body-color;
+.content-container {
+  max-width: 100%;
   padding: variables.$section-spacing;
+}
+
+.content {
+  color: variables.$body-color;
 }
 
 // Container is flexbox as well -- we want content div to stretch and fill
@@ -103,7 +112,7 @@ body {
 }
 
 /* -----------------------------------------------------------
-  Mobile view for home page)
+  Mobile view for home page
 ----------------------------------------------------------- */
 
 .home #sidebar {
@@ -164,15 +173,8 @@ body {
 
   #sidebar {
     position: fixed;
-
-    // Attach to bottom or top of window
-    @if variables.$sidebar-sticky {
-      bottom: 0;
-    }
-
-    @else {
-      top: 0;
-    }
+    bottom: 0;
+    top: 0;
 
     // Attach to right or left of window
     @if variables.$layout-reverse {
@@ -183,12 +185,32 @@ body {
       left: 0;
     }
 
+    // Attach to bottom or top of window
+    @if variables.$sidebar-bottom {
+      justify-content: end;
+    }
+
+    @else {
+      justify-content: start;
+    }
+
     .site-title {
       font-size: 3.25rem;
       .back-arrow { display: none; }
     }
 
-    p.lead,
+    // Show lead only when screen height is large enough
+    @media (min-height: 1000px) {
+      p.lead {
+        display: block;
+      }
+    }
+    @media (max-height: 999px) {
+      p.lead {
+        display: none;
+      }
+    }
+
     header ~ * {
       display: block;
     }
@@ -205,10 +227,7 @@ body {
     background: variables.$body-bg;
     color: variables.$body-color;
     min-height: 100vh;
-    padding:
-      variables.$section-spacing * 2
-      variables.$section-spacing * 2
-      0;
+    padding: 0;
 
     @if variables.$layout-reverse {
       margin-right: variables.$sidebar-width;
@@ -232,9 +251,9 @@ body {
       }
     }
 
-    > * {
-      max-width: 38rem;
-      padding: 0;
+    > .content-container {
+      max-width: 1200px;
+      padding: variables.$section-spacing * 2;
     }
   }
 }
