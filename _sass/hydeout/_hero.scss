@@ -1,14 +1,77 @@
 @use "variables";
 
+// .hero {
+//   --hero-color: #0d6ac7;
+//   --hero-color-secondary: #1976D2;
+//   background-color: #BBDEFB;
+//   position: relative;
+//   text-align: center;
+//   margin: 0;
+//   width: 100%;
+
+//   .hero-text {
+//     margin: 0 auto;
+//     padding: 4rem 2rem 2.5rem 2rem;
+
+//     h1 {
+//       font-family: "Abril Fatface", serif;
+//       font-weight: 700;
+//       margin: 0;
+//       font-size: 2.5rem;
+
+//       a {
+//         color: var(--hero-color);
+//       }
+//     }
+
+//     p.hero-subtitle {
+//       color: var(--hero-color-secondary);
+//       margin-top: 1rem;
+//       font-size: 1.1rem;
+//     }
+
+//     p.hero-footer {
+//       color: var(--hero-color-secondary);
+//       margin-top: 1rem;
+//       font-size: .9rem;
+//     }
+//   }
+
+//   &.hero--compact {
+//     .hero-text {
+//       padding: 2rem 1rem;
+
+//       h1 {
+//         font-size: 1.8rem;
+//       }
+
+//       p.hero-subtitle {
+//         display: none;
+//       }
+
+//       p.hero-footer {
+//         font-size: 0.8rem;
+//         margin: 0.6rem 0 0 0;
+//       }
+//     }
+//   }
+// }
+
 .hero {
   --hero-color: #0d6ac7;
   --hero-color-secondary: #1976D2;
   background-color: #BBDEFB;
   position: relative;
   text-align: center;
-  color: white;
   margin: 0;
   width: 100%;
+
+  // Alternative
+  background: url("../images/dc.jpg");
+  background-size: cover;
+  background-position: center 30%;
+  background-repeat: no-repeat;
+  filter: brightness(1.1);
 
   .hero-text {
     margin: 0 auto;
@@ -29,16 +92,19 @@
       color: var(--hero-color-secondary);
       margin-top: 1rem;
       font-size: 1.1rem;
+      font-weight: 600;
     }
 
     p.hero-footer {
-      color: var(--hero-color-secondary);
+      color: #e7e7e7;
       margin-top: 1rem;
       font-size: .9rem;
     }
   }
 
   &.hero--compact {
+    background-position: top;
+
     .hero-text {
       padding: 2rem 1rem;
 
