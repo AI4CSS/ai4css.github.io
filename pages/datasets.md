@@ -2,7 +2,7 @@
 layout: page
 title: Open Datasets
 permalink: /datasets/
-sidebar_link: true
+sidebar_link: false
 ---
 
 We encourage the use and development of open datasets in computational social science research. A curated list of datasets relevant to this workshop will be made available here soon.

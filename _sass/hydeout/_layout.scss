@@ -41,7 +41,9 @@ body {
   padding: 3rem variables.$section-spacing;
 
   .sidebar-container {
-    align-items: end;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
   }
 
   .site-title {
@@ -208,12 +210,16 @@ body {
       display: flex;
     }
 
+    .copyright {
+      margin-top: auto;
+    }
+
     header {
       margin-bottom: 1rem;
     }
 
     p.lead {
-      display: block;
+      display: none;
     }
 
     // Show lead only when screen height is large enough

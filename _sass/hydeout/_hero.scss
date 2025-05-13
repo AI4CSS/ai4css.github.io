@@ -88,17 +88,30 @@
       }
     }
 
-    p.hero-subtitle {
+    p.hero-venue {
       color: var(--hero-color-secondary);
-      margin-top: 1rem;
+      font-size: 1.8rem;
+    }
+
+    @media (max-width: variables.$large-breakpoint) {
+      p.hero-venue {
+        display: none;
+      }
+    }
+
+    p.hero-subtitle {
+      color: #e7e7e7;
       font-size: 1.1rem;
       font-weight: 600;
+      margin-bottom: 0;
     }
 
     p.hero-footer {
       color: #e7e7e7;
-      margin-top: 1rem;
-      font-size: .9rem;
+      margin-top: 6rem;
+      margin-bottom: 0;
+      font-size: 1.1rem;
+      font-weight: 600;
     }
   }
 
