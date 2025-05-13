@@ -4,7 +4,6 @@
 */
 
 @use 'hydeout/variables';
-@use 'hydeout/hero';
 @use 'hydeout/base';
 @use 'hydeout/type';
 @use 'hydeout/syntax';
@@ -17,3 +16,5 @@
 @use 'hydeout/search';
 @use 'hydeout/tags';
 @use 'hydeout/back-link';
+@use 'hydeout/hero';
+@use 'hydeout/organization';
