@@ -36,10 +36,9 @@ body {
 
 #sidebar {
   background-color: variables.$sidebar-bg-color;
-  background-image: linear-gradient(to bottom, color.adjust(variables.$sidebar-bg-color, $lightness: 7%), color.adjust(variables.$sidebar-bg-color, $lightness: -7%));
   display: flex;
   flex-direction: column;
-  padding: variables.$section-spacing;
+  padding: 3rem variables.$section-spacing;
 
   .sidebar-container {
     align-items: end;
@@ -57,7 +56,9 @@ body {
 }
 
 .content-container {
+  background-color: aliceblue;
   max-width: 100%;
+  min-height: 100vh;
   padding: variables.$section-spacing;
 }
 
@@ -171,7 +172,8 @@ body {
     }
   }
 
-  #sidebar {
+  #sidebar,
+  .home #sidebar {
     position: fixed;
     bottom: 0;
     top: 0;
@@ -195,20 +197,8 @@ body {
     }
 
     .site-title {
-      font-size: 3.25rem;
+      font-size: 2.4rem;
       .back-arrow { display: none; }
-    }
-
-    // Show lead only when screen height is large enough
-    @media (min-height: 1000px) {
-      p.lead {
-        display: block;
-      }
-    }
-    @media (max-height: 999px) {
-      p.lead {
-        display: none;
-      }
     }
 
     header ~ * {
@@ -217,6 +207,25 @@ body {
 
     header ~ nav {
       display: flex;
+    }
+
+    header {
+      margin-bottom: 1rem;
+    }
+
+    p.lead {
+      display: block;
+    }
+
+    // Show lead only when screen height is large enough
+    @media (max-height: 699px) {
+      p.lead {
+        display: none;
+      }
+
+      header {
+        margin-bottom: 2rem;
+      }
     }
   }
 
@@ -253,7 +262,7 @@ body {
 
     > .content-container {
       max-width: 1200px;
-      padding: variables.$section-spacing * 2;
+      padding: variables.$section-spacing * 1.5 variables.$section-spacing * 2;
     }
   }
 }

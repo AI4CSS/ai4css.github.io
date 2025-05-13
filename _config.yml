@@ -3,9 +3,9 @@ markdown:         kramdown
 highlighter:      rouge
 
 # Setup
-title:            AI4CSS @ ICDM 2025
+title:            AI4CSS
 tagline:          'AI for Computational Social Science'
-description:      'Workshop on Artificial Intelligence for Computational Social Science at the 2025 IEEE International Conference on Data Mining (ICDM).'
+description:      'Workshop on Artificial Intelligence for Computational Social Science at the IEEE International Conference on Data Mining (ICDM).'
 url:              https:/macss-project.github.io
 baseurl:          '/ai4css2025'  # Base URL for your site
                   # Set to the subdirectory you’ll publish under (e.g., "/ai4css2025")

@@ -1,7 +1,16 @@
-<div class="hero">
-  <img src="{{ '/assets/images/hero.jpg' | relative_url }}" alt="AI4CSS Hero Image" class="hero-image">
+<div class="hero{% unless page.url == "/" %} hero--compact{% endunless %}">
   <div class="hero-text">
-    <h1>AI4CSS @ ICDM 2025</h1>
-    <p>Artificial Intelligence for Computational Social Science</p>
+    <h1>
+      <a href="{{ "/" | relative_url }}">
+        Workshop on AI for<br>Computational Social Science
+      </a>
+    </h1>
+    <p class="hero-subtitle">
+      Nov 12–15, 2025<br>
+      Washington, D.C.
+    </p>
+    <p class="hero-footer">
+      AI4CSS @ ICDM 2025
+    </p>
   </div>
 </div>
