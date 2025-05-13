@@ -7,7 +7,7 @@ title:            AI4CSS
 tagline:          'AI for Computational Social Science'
 description:      'Workshop on Artificial Intelligence for Computational Social Science at the IEEE International Conference on Data Mining (ICDM).'
 url:              https:/macss-project.github.io
-baseurl:          '/ai4css2025'  # Base URL for your site
+baseurl:          ''  # Base URL for your site
                   # Set to the subdirectory you’ll publish under (e.g., "/ai4css2025")
 
 author:
