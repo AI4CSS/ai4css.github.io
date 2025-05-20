@@ -1,4 +1,4 @@
-<div class="hero{% unless page.url == "/" %} hero--compact{% endunless %}">
+<!-- <div class="hero{% unless page.url == "/" %} hero--compact{% endunless %}">
   <div class="hero-text">
     <h1>
       <a href="{{ "/" | relative_url }}">
@@ -16,4 +16,7 @@
       Washington, D.C.
     </p>
   </div>
-</div>
+</div> -->
+
+<canvas id="wordcloud" width="2300" height="{% if page.url == "/" %}800{% else %}400{% endif %}" style="height: auto;width: 100%;"></canvas>
+<script src="{{ "/assets/javascript/wordcloud.js" | relative_url }}"></script>
