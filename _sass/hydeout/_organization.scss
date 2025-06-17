@@ -17,14 +17,13 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    width: 160px;
+    width: 170px;
 
     .avatar {
       width: 120px;
       height: 120px;
       border-radius: 50%;
       object-fit: cover;
-      // border: 2px solid #1976d2;
       box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
       margin-bottom: 0.75rem;
     }
@@ -34,10 +33,24 @@
       color: #0d47a1;
       text-decoration: none;
       transition: color 0.2s ease;
+      margin-bottom: 0.25rem;
 
       &:hover {
         color: #1565c0;
       }
+    }
+
+    .organizer-title {
+      font-size: 0.7rem;
+      color: #555;
+      margin: 0;
+      margin-bottom: 0.25rem;
+    }
+
+    .organizer-school {
+      font-size: 0.65rem;
+      color: #777;
+      margin: 0;
     }
   }
 }
