@@ -28,8 +28,8 @@ We welcome contributions across a broad range of topics, including but not limit
 
 You may submit your paper in one of the following two ways:
 
-1. **Direct Submission:** Submit directly to the workshop through the official submission portal (max 8 pages plus 2 extra pages for bibliography and any appendices).
-2. **Transfer from Main Conference:** Papers not accepted by the main ICDM conference will be automatically considered for this workshop if selected during submission to the main conference.
+1. [**Direct Submission**](https://www.wi-lab.com/cyberchair/2025/icdm25/scripts/submit.php?subarea=S20&undisplay_detail=1&wh=/cyberchair/2025/icdm25/scripts/ws_submit.php): Submit directly to the workshop through the official submission portal (max 8 pages plus 2 extra pages for bibliography and any appendices).
+2. [**Transfer from Main Conference**](https://www.wi-lab.com/cyberchair/2025/icdm25/scripts/submit.php?subarea=DM): Papers not accepted by the main ICDM conference will be automatically considered for this workshop if selected during submission to the main conference.
 
 Check the [ICDM 2025 Call for Papers](https://www3.cs.stonybrook.edu/~icdm2025/cfp.html) for detailed submission guidelines.
 
