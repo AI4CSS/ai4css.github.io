@@ -5,18 +5,46 @@ permalink: /schedule/
 sidebar_link: true
 ---
 
-**8:00–8:15** — Zhao Wang and Jon Clindaniel — **Introductory Remarks**
+<style>
+.schedule {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  row-gap: 1em;
+  column-gap: 1.5em;
+  align-items: start;
+}
+.schedule .time {
+  font-weight: bold;
+}
+.schedule .info {
+  line-height: 1.5;
+}
+</style>
 
-**8:15–8:45** — Presentation: *Imminent Dangers of Misinformation in Social Media Generated from Unmoderated LLMs* (Authors: Han Kyul Kim and Andy Skumanich)
+<div class="schedule">
 
-**8:45–9:15** — Presentation: *Modeling Network Formation with LLM Agents: The Role of Demographics and Personality* (Authors: Christos Gkartzios, Evaggelia Pitoura, and Panayiotis Tsaparas)
+  <div class="time">8:00–8:15</div>
+  <div class="info">Zhao Wang and Jon Clindaniel — <strong>Introductory Remarks</strong></div>
 
-**9:15–9:45** — Presentation: *A Cross-Cultural Comparison of LLM-based Public Opinion Simulation: Evaluating Chinese and U.S. Models on Diverse Societies* (Authors: Weihong Qi, Fan Huang, Jisun An, and Haewoon Kwak)
+  <div class="time">8:15–8:45</div>
+  <div class="info"><strong>Presentation:</strong> <em>Imminent Dangers of Misinformation in Social Media Generated from Unmoderated LLMs</em> (Authors: Han Kyul Kim and Andy Skumanich)</div>
 
-**9:45–10:15** — Presentation: *LLM-based scoring of narrative memories reveals that emotional arousal enhances central information at the expense of peripheral information* (Authors: Xinyue Pan, Jadyn Park, and Yuan Chang Leong)
+  <div class="time">8:45–9:15</div>
+  <div class="info"><strong>Presentation:</strong> <em>Modeling Network Formation with LLM Agents: The Role of Demographics and Personality</em> (Authors: Christos Gkartzios, Evaggelia Pitoura, and Panayiotis Tsaparas)</div>
 
-**10:15–10:30** — **Coffee Break**
+  <div class="time">9:15–9:45</div>
+  <div class="info"><strong>Presentation:</strong> <em>A Cross-Cultural Comparison of LLM-based Public Opinion Simulation: Evaluating Chinese and U.S. Models on Diverse Societies</em> (Authors: Weihong Qi, Fan Huang, Jisun An, and Haewoon Kwak)</div>
 
-**10:30–11:00** — Presentation: *Algorithmic Landlords and Rent Diffusion: A Graph Neural Network Approach to Housing Markets* (Eunsung Yoon)
+  <div class="time">9:45–10:15</div>
+  <div class="info"><strong>Presentation:</strong> <em>LLM-based scoring of narrative memories reveals that emotional arousal enhances central information at the expense of peripheral information</em> (Authors: Xinyue Pan, Jadyn Park, and Yuan Chang Leong)</div>
 
-**11:00–12:00** — **James Evans — Keynote**
+  <div class="time">10:15–10:30</div>
+  <div class="info"><strong>Coffee Break</strong></div>
+
+  <div class="time">10:30–11:00</div>
+  <div class="info"><strong>Presentation:</strong> <em>Algorithmic Landlords and Rent Diffusion: A Graph Neural Network Approach to Housing Markets</em> (Eunsung Yoon)</div>
+
+  <div class="time">11:00–12:00</div>
+  <div class="info"><strong>James Evans — Keynote</strong></div>
+
+</div>
