@@ -9,4 +9,4 @@ sidebar_link: true
 - **Notification of acceptance:** September 20, 2025  
 - **Early registration**: September 30, 2025
 - **Camera-ready and copyright submission:** October 5, 2025  
-- **Workshop date (tentative):** November 12, 2025
+- **Workshop date:** November 12, 2025
