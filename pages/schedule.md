@@ -41,14 +41,14 @@ sidebar_link: true
   <div class="time">9:45–10:15</div>
   <div class="info"><strong>Presentation:</strong> <em>A Cross-Cultural Comparison of LLM-based Public Opinion Simulation: Evaluating Chinese and U.S. Models on Diverse Societies</em> (Authors: Weihong Qi, Fan Huang, Jisun An, and Haewoon Kwak)</div>
 
-  <div class="time">10:15–10:45</div>
+  <div class="time">10:15–10:30</div>
+  <div class="info"><strong>Coffee Break</strong></div>
+
+  <div class="time">10:30–11:00</div>
   <div class="info"><strong>Presentation:</strong> <em>LLM-based scoring of narrative memories reveals that emotional arousal enhances central information at the expense of peripheral information</em> (Authors: Xinyue Pan, Jadyn Park, and Yuan Chang Leong)</div>
 
-  <div class="time">10:45–11:15</div>
+  <div class="time">11:00–11:30</div>
   <div class="info"><strong>Presentation:</strong> <em>Algorithmic Landlords and Rent Diffusion: A Graph Neural Network Approach to Housing Markets</em> (Eunsung Yoon)</div>
-
-  <div class="time">11:15–11:30</div>
-  <div class="info"><strong>Coffee Break</strong></div>
 
   <div class="time">11:30–12:30</div>
   <div class="info"><strong>James Evans — Keynote</strong></div>
